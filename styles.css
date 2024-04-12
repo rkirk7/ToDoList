@@ -41,6 +41,11 @@ code{
     justify-content: space-between;
 }
 
+.button:hover{
+    cursor:pointer;
+    opacity: .7;
+}
+
 .input {
     width: 100%;
     box-sizing: border-box;
@@ -50,4 +55,8 @@ code{
     padding: 1rem;
     height: 2.25em;
     font-size: 24px;
+}
+
+.input:hover {
+    background-color: lightgray;
 }
